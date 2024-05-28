@@ -10,7 +10,6 @@
         <div class="movie-info-right">
           <div class="movie-info-msg">
             <h1 class="movie-name">{{movieInfo.movieName}}</h1>
-            <h1>&nbsp;|</h1>
             <ul>
               <li>{{movieInfo.movieCategoryList}}</li>
               <li>{{movieInfo.movieArea}} / {{movieInfo.movieLength}}分钟</li>
@@ -219,7 +218,8 @@ a{
   position: absolute;
   color: #fff;
   font-size: 14px;
-  z-index: 1;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 .movie-name{
@@ -259,6 +259,7 @@ ul li{
 .movie-info-btn{
   position: absolute;
   bottom: 20px;
+  margin-left: 30px;
 }
 
 .buy-btn{
@@ -270,9 +271,9 @@ ul li{
 }
 
 .movie-info-score{
-  position: absolute;
-  top: 145px;
-  left: 342px;
+  float: left;
+  margin-left: 30px;
+  margin-top: 145px;
 }
 
 .movie-index {

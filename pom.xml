@@ -26,7 +26,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>11.0.10</java.version>
+		<java.version>8</java.version>
 
 		<!--统一定义版本号-->
 		<panda.version>0.0.1-SNAPSHOT</panda.version>

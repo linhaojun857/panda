@@ -143,7 +143,8 @@ div > span{
 }
 
 .el-main{
-  background: url("../assets/welcome.jpg");
+  padding: 10px;
+  padding-top: 5px;
   background-size: cover;
 }
 

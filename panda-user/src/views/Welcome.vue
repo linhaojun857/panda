@@ -2,11 +2,6 @@
   <el-container>
     <el-header>
       <div class="header-inner">
-        <a href="/welcome" class="logo">
-<!--        <a @click="toWelcome" class="logo">-->
-          <img style="width: 270px; height: 68px; margin-top: 6px;" src="../assets/homeLogo.jpg">
-<!--          <p style="width: 270px; height: 68px; margin-top: 10px; font-size: 40px; background-color: #2d98f3" >{{this.cinemaInfo.cinemaName.substring(0, this.cinemaInfo.cinemaName.indexOf('（'))}}</p>-->
-        </a>
         <el-menu
             :default-active="activeUrl"
             class="nav-menu"
@@ -37,14 +32,6 @@
     <el-main>
       <router-view></router-view>
     </el-main>
-    <el-footer>
-      <div class="footer-mini"></div>
-      <div class="footer">
-        <img style="width: 512px; height: 70px" src="../assets/register-footer.jpg">
-<!--        <p style=" font-size: 40px; background-color: white">看电影，就上-{ {{this.cinemaInfo.cinemaName}} }</p>-->
-      </div>
-      <el-backtop></el-backtop>
-    </el-footer>
   </el-container>
 </template>
 
@@ -145,7 +132,9 @@ export default {
 .nav-menu{
   border-bottom: 0px solid #eee !important;
   height: 60px;
-  margin: 9px auto;
+  margin: auto;
+  margin-left: 0;
+  float: left;
 }
 
 .el-menu-item{
